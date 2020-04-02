@@ -1,0 +1,28 @@
+{
+  "name": "simple-site",
+  "version": "1.0.0",
+  "description": "It uses Node.js, Express and Pug\r It's a website with User login.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "dev": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makeshnaidu/simple-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makeshnaidu/simple-site/issues"
+  },
+  "homepage": "https://github.com/makeshnaidu/simple-site#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
