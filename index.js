@@ -25,7 +25,7 @@ app.set("view engine", "pug");
  * Routes Definitions
  */
 app.get("/", (req, res)=>{
-    res.status(200).send("Simple Site for Beginners");
+    res.status("index", { title: "Home" });
 })
  
 /**
